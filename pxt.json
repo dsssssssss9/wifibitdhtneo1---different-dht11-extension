@@ -1,0 +1,34 @@
+{
+    "name": "wifiBitDHTNeo1 - differen dht11 extension",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-wifi": "github:e-radionicacom/pxt-wifi#v1.0.1",
+        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#v1.5.0",
+        "dht11": "github:MonadnockSystems/pxt-dht11#v0.0.33",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.11",
+        "tag": "v4.0.11",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/2b9dd6f9b1588b4ad95673b458b3a6eb156bfbd7",
+        "target": "4.0.16",
+        "pxt": "7.0.8",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
